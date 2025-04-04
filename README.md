@@ -1,6 +1,6 @@
-# PRMark
+# ELLMark
 
-This repository contains the code for Paper ***Post-training Made Simple: A Watermarking Technique for High-Efficiency and Robust LLM's IP Protection***.
+This repository contains the code for Paper ***An Efficient White-box LLM Watermarking for IP Protection on Online Market Platforms***.
 
 <!-- Due to time constraints, this code submission was made hastily, but the core code is included. **We assure that we will update the code and documentation with more user-friendly versions as soon as possible.** -->
 
@@ -24,7 +24,7 @@ You can modify the script to download additional models, or adapt it for other p
 1. **Watermarking Setup:**
    - You need to modify the script to handle watermarking for the `facebook/opt-1.3b` model. Ensure that `model_name` is set to `facebook/opt-1.3b` and configure watermark embedding/extraction methods.
 2. **Embedding Watermark:**
-   - Use the `RandomMark`, `EmMark`, and `PRMark` watermark embedding techniques (with pre-existing Python scripts such as `randommark_insert_watermark.py`, `emmark_insert_watermark.py`, and `insert_watermark.py`). Each method will be defined in a separate function within the script.
+   - Use the `RandomMark`, `EmMark`, and `ELLMark` watermark embedding techniques (with pre-existing Python scripts such as `randommark_insert_watermark.py`, `emmark_insert_watermark.py`, and `insert_watermark.py`). Each method will be defined in a separate function within the script.
 3. **Watermark Extraction:**
    - The watermark extraction will be done using `randommark_extract_watermark.py`, `emmark_extract_watermark.py`, and `extract_watermark.py`.
 4. **Quantization:**
