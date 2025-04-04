@@ -1,6 +1,6 @@
 # ELLMark
 
-This repository contains the code for Paper ***An Efficient White-box LLM Watermarking for IP Protection on Online Market Platforms***.
+This repository contains the code for the Paper: ***An Efficient White-box LLM Watermarking for IP Protection on Online Market Platforms***.
 
 <!-- Due to time constraints, this code submission was made hastily, but the core code is included. **We assure that we will update the code and documentation with more user-friendly versions as soon as possible.** -->
 
